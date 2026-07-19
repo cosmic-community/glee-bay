@@ -12,36 +12,11 @@ export default function Header() {
             </span>
           </Link>
           <nav className="flex items-center gap-6 text-sm font-semibold uppercase tracking-wider">
-            <Link
-              href="/products"
-              className="text-gray-300 hover:text-neon-cyan transition-colors"
-            >
-              Products
-            </Link>
-            <Link
-              href="/categories"
-              className="text-gray-300 hover:text-neon-magenta transition-colors"
-            >
-              Categories
-            </Link>
-            <Link
-              href="/sellers"
-              className="text-gray-300 hover:text-neon-purple transition-colors"
-            >
-              Sellers
-            </Link>
-            <Link
-              href="/reviews"
-              className="text-gray-300 hover:text-neon-yellow transition-colors"
-            >
-              Reviews
-            </Link>
-            <Link
-              href="/about"
-              className="text-gray-300 hover:text-neon-cyan transition-colors"
-            >
-              About
-            </Link>
+            <Link href="/products" className="text-gray-300 hover:text-neon-cyan transition-colors">Products</Link>
+            <Link href="/categories" className="text-gray-300 hover:text-neon-magenta transition-colors">Categories</Link>
+            <Link href="/sellers" className="text-gray-300 hover:text-neon-purple transition-colors">Sellers</Link>
+            <Link href="/reviews" className="text-gray-300 hover:text-neon-yellow transition-colors">Reviews</Link>
+            <Link href="/about" className="text-gray-300 hover:text-neon-cyan transition-colors">About</Link>
           </nav>
         </div>
       </div>
