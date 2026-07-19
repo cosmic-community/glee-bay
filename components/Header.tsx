@@ -36,6 +36,12 @@ export default function Header() {
             >
               Reviews
             </Link>
+            <Link
+              href="/about"
+              className="text-gray-300 hover:text-neon-cyan transition-colors"
+            >
+              About
+            </Link>
           </nav>
         </div>
       </div>
